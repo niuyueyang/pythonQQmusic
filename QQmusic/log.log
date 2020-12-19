@@ -1,0 +1,179 @@
+2020-12-19 22:30:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 28, in parse
+    r = scrapy.Request.get(url, params=self.params)
+AttributeError: type object 'Request' has no attribute 'get'
+2020-12-19 22:38:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 40, in parse
+    r = requests.get(url, headers=headers, params=self.params)
+  File "d:\python3\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "d:\python3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "d:\python3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "d:\python3\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python3\lib\http\client.py", line 1318, in _send_request
+    self.putheader(hdr, value)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 219, in putheader
+    _HTTPConnection.putheader(self, header, *values)
+  File "d:\python3\lib\http\client.py", line 1245, in putheader
+    raise ValueError('Invalid header name %r' % (header,))
+ValueError: Invalid header name b':path'
+2020-12-19 22:41:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 41, in parse
+    r = requests.get(url, headers=headers, params=self.params)
+  File "d:\python3\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "d:\python3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "d:\python3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "d:\python3\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python3\lib\http\client.py", line 1318, in _send_request
+    self.putheader(hdr, value)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 219, in putheader
+    _HTTPConnection.putheader(self, header, *values)
+  File "d:\python3\lib\http\client.py", line 1245, in putheader
+    raise ValueError('Invalid header name %r' % (header,))
+ValueError: Invalid header name b':path'
+2020-12-19 22:44:51 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 41, in parse
+    r = requests.get(url, headers=headers, params=self.params)
+  File "d:\python3\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "d:\python3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "d:\python3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "d:\python3\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python3\lib\http\client.py", line 1318, in _send_request
+    self.putheader(hdr, value)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 219, in putheader
+    _HTTPConnection.putheader(self, header, *values)
+  File "d:\python3\lib\http\client.py", line 1245, in putheader
+    raise ValueError('Invalid header name %r' % (header,))
+ValueError: Invalid header name b':path'
+2020-12-19 23:09:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 41, in parse
+    r = requests.get(url, headers=headers, params=self.params)
+  File "d:\python3\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "d:\python3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "d:\python3\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "d:\python3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 706, in urlopen
+    chunked=chunked,
+  File "d:\python3\lib\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 234, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "d:\python3\lib\http\client.py", line 1277, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "d:\python3\lib\http\client.py", line 1318, in _send_request
+    self.putheader(hdr, value)
+  File "d:\python3\lib\site-packages\urllib3\connection.py", line 219, in putheader
+    _HTTPConnection.putheader(self, header, *values)
+  File "d:\python3\lib\http\client.py", line 1245, in putheader
+    raise ValueError('Invalid header name %r' % (header,))
+ValueError: Invalid header name b':path'
+2020-12-19 23:16:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 16, in parse
+    url = 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp?ct=24&qqmusic_ver=1298&new_json=1&remoteplace=txt.yqq.song&searchid=58239842516780402&t=0&aggr=1&cr=1&catZhida=1&lossless=0&flag_qc=0&p=1&n=10&w=%E5%B8%9D%E9%83%BD&g_tk_new_20200303=5381&g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq.json&needNewCode=0'%(w)
+TypeError: must be real number, not str
+2020-12-19 23:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\urllib\parse.py", line 901, in urlencode
+    raise TypeError
+TypeError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 15, in parse
+    w = parse.urlencode(input('输入歌名:'))
+  File "d:\python3\lib\urllib\parse.py", line 909, in urlencode
+    "or mapping object").with_traceback(tb)
+  File "d:\python3\lib\urllib\parse.py", line 901, in urlencode
+    raise TypeError
+TypeError: not a valid non-string sequence or mapping object
+2020-12-20 00:15:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://u.y.qq.com/cgi-bin/musics.fcg> (referer: None)
+Traceback (most recent call last):
+  File "d:\python3\lib\site-packages\twisted\internet\defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "d:\python3\lib\site-packages\scrapy\spiders\__init__.py", line 90, in _parse
+    return self.parse(response, **kwargs)
+  File "F:\QQmusic\QQmusic\spiders\music.py", line 34, in parse
+    content_json = requests.get(url=url_list[id - 1])
+IndexError: cannot fit 'int' into an index-sized integer
