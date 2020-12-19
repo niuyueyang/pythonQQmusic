@@ -8,5 +8,5 @@ python qq音乐爬虫
 
 >scrapy crawl music
 
-#查看
+# 查看
 音乐在qq音乐目录文件夹中
