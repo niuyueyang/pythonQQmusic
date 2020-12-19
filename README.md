@@ -2,8 +2,9 @@
 python qq音乐爬虫
 
 # 启动
+> 新建QQmusic文件夹
 
->cd QQmusic
+>cd QQmusic/QQmusic
 
 >scrapy crawl music
 
